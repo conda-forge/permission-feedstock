@@ -15,6 +15,18 @@ flexible (support rule inheritance and bitwise operations(& and |) to build
 your own rules) design.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/permission-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/permission-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/permission-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/permission-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/permission-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/permission-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/permission/badges/version.svg)](https://anaconda.org/conda-forge/permission)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/permission/badges/downloads.svg)](https://anaconda.org/conda-forge/permission)
+
 Installing permission
 =====================
 
@@ -35,7 +47,6 @@ It is possible to list all of the versions of `permission` available on your pla
 ```
 conda search permission --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -71,18 +82,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/permission-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/permission-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/permission-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/permission-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/permission-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/permission-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/permission/badges/version.svg)](https://anaconda.org/conda-forge/permission)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/permission/badges/downloads.svg)](https://anaconda.org/conda-forge/permission)
 
 
 Updating permission-feedstock
