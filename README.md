@@ -18,14 +18,15 @@ your own rules) design.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/permission-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/permission-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/permission-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/permission-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/permission-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/permission-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/permission-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/permission-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/permission/badges/version.svg)](https://anaconda.org/conda-forge/permission)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/permission/badges/downloads.svg)](https://anaconda.org/conda-forge/permission)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-permission-green.svg)](https://anaconda.org/conda-forge/permission) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/permission.svg)](https://anaconda.org/conda-forge/permission) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/permission.svg)](https://anaconda.org/conda-forge/permission) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/permission.svg)](https://anaconda.org/conda-forge/permission) |
 
 Installing permission
 =====================
@@ -70,6 +71,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
